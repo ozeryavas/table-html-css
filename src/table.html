@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<style>
+    table {
+        width: 100%;
+    }
+
+    caption {
+        caption-side: bottom;
+        font-weight: bolder;
+        margin-top: 10px;
+    }
+
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 10px;
+        text-align: center;
+    }
+
+    th {
+        height: 50px;
+        width: 25%;
+    }
+
+    tr:nth-child(even) {
+        background-color: #e5e5e5;
+    }
+
+    tbody tr:hover {
+        background-color: #999; 
+    }
+</style>
+<body>
+    <table>
+        <caption>1.1. Table Name</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Phone Number</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>45</td>
+                <td>+1023456789</td>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam minus nihil ipsum praesentium totam autem, veniam expedita perspiciatis debitis rem.</td>
+            </tr>
+            <tr>
+                <td>Isaac Newton</td>
+                <td>30</td>
+                <td>+4548529631</td>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam minus nihil ipsum praesentium totam autem, veniam expedita perspiciatis debitis rem.</td>
+            </tr>
+            <tr>
+                <td>Agatha Christie</td>
+                <td>60</td>
+                <td>+7894561230</td>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam minus nihil ipsum praesentium totam autem, veniam expedita perspiciatis debitis rem.</td>
+            </tr>
+            <tr>
+                <td>Stephen King</td>
+                <td>52</td>
+                <td>+8529637410</td>
+                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam minus nihil ipsum praesentium totam autem, veniam expedita perspiciatis debitis rem.</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
